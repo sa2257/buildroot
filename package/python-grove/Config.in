@@ -8,4 +8,4 @@ config BR2_PACKAGE_PYTHON_GROVE
 	help
 	  A simple tool to access grove sensors on a Raspberry Pi.
 
-	  https://github.com/Seeed-Studio/grove.py
+	  https://github.com/sa2257/grove.py
