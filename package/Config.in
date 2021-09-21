@@ -1280,6 +1280,7 @@ menu "External python modules"
 	source "package/python-zeroconf/Config.in"
 	source "package/python-zope-interface/Config.in"
 	source "package/python-grove/Config.in"
+	source "package/python-smbus2/Config.in"
 endmenu
 endif
 	source "package/quickjs/Config.in"
