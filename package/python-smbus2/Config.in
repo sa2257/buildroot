@@ -1,6 +1,6 @@
 config BR2_PACKAGE_PYTHON_SMBUS2
 	bool "python-smbus2"
-	select BR2_PACKAGE_PYTHON
+	depends on BR2_PACKAGE_PYTHON
 	help
 	  This Python module allows SMBus access through the I2C /dev
 	  interface on Linux hosts. The host kernel must have I2C
